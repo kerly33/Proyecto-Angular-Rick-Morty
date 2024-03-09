@@ -79,18 +79,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "rickyMortyAPP:build"
+            "browserTarget": "rickyMortyAPP:build"
           },
           "configurations": {
             "production": {
-              "buildTarget": "rickyMortyAPP:build:production"
+              "browserTarget": "rickyMortyAPP:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "rickyMortyAPP:build"
+            "browserTarget": "rickyMortyAPP:build"
           }
         },
         "test": {
